@@ -12,9 +12,44 @@
 		font-size: 16px;
 		margin: 7px 0;
 	}
+	p{
+		width: 100%;
+		height: 100px;
+		background-color: red;
+		margin: 20px 0;
+	}
 </style>
 <body>
-	<a href="opp.html">opp-model</a>
+	<a href="good-opp.html">opp-model</a>
+	<p ontouchstart="star()" id="dom1">tap</p>
+	<p id="dom">second</p>
+	<script type="text/javascript" src="lib/zepto.js"></script>
+	<script type="text/javascript" src="lib/checkDevice.js"></script>
+	<script type="text/javascript" src="lib/DKtouch.js"></script>
+	<script>
+		function star(){
+			console.log('ontouchstar turn to be click');
+			console.log(dom);
+		}
+
+		function dom2(){
+			console.log(this.value);
+			console.log(this.type);
+		}
+
+		function domtouch(){
+			console.log('addListener3333');
+		}
+
+		var dom = document.getElementById('dom');
+
+		// document.addEventListener('click','star()',false);
+
+		dom.addEventListener('touchstart',star,false);
+
+		// EventUtil.addHandler(dom,'click',star());
+
+	</script>
 
 </body>
 </html>
