@@ -10,3 +10,8 @@ html5,css3,frame
 checkDevice.js
 
 ## 原声touch 事件
+
+
+微信检测方案
+
+修改Google中的UA(userAgent),改为“micromessenger”
