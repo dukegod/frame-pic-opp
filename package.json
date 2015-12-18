@@ -1,0 +1,22 @@
+{
+  "name": "isclient",
+  "version": "1.0.0",
+  "description": "check client ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukegod/isClient.git"
+  },
+  "keywords": [
+    "client"
+  ],
+  "author": "dukegod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukegod/isClient/issues"
+  },
+  "homepage": "https://github.com/dukegod/isClient#readme"
+}

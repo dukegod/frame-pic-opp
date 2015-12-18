@@ -20,34 +20,20 @@
 	}
 </style>
 <body>
-	<a href="good-opp.html">opp-model</a>
-	<p ontouchstart="star()" id="dom1">tap</p>
-	<p id="dom">second</p>
-	<script type="text/javascript" src="lib/zepto.js"></script>
-	<script type="text/javascript" src="lib/checkDevice.js"></script>
-	<script type="text/javascript" src="lib/DKtouch.js"></script>
+
+	<script type="text/javascript" src="js/isclient.js"></script>
 	<script>
-		function star(){
-			console.log('ontouchstar turn to be click');
-			console.log(dom);
-		}
+	  // var i = version;
+    // console.log(i);
 
-		function dom2(){
-			console.log(this.value);
-			console.log(this.type);
-		}
-
-		function domtouch(){
-			console.log('addListener3333');
-		}
-
-		var dom = document.getElementById('dom');
-
-		// document.addEventListener('click','star()',false);
-
-		dom.addEventListener('touchstart',star,false);
-
-		// EventUtil.addHandler(dom,'click',star());
+    console.log('webkit:'+version.webkit);
+    console.log('火狐'+version.gecko);
+    console.log('IE:'+version.trident);
+    console.log('mobile:'+version.mobile);
+    console.log('ios:'+version.ios);
+    console.log('android'+version.android);
+    console.log('iPhone:'+version.iPhone);
+    console.log('微信'+version.wx);
 
 	</script>
 
