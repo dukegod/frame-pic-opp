@@ -1,5 +1,4 @@
 //滑动事件
-
 var slideFunc= function(){
 	//全局变量，触摸开始位置  
     var startX = 0,

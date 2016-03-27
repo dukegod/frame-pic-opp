@@ -9,3 +9,5 @@ var TouchEvents = {
         this.touchend = "mouseup";      
     }
 };
+//  执行函数
+TouchEvents.init();
