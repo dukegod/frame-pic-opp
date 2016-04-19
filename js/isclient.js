@@ -12,6 +12,6 @@
     iPhone: u.indexOf('iphone') > -1 , //是否为iPhone或者QQHD浏览器  
     iPad: u.indexOf('ipad') > -1, //是否iPad    
     webApp: u.indexOf('safari') == -1, //是否web应该程序，没有头部与底部  
-    wx : u.match(/micromessenger/i)=='micromessenger' // 是否是微信内核	 
+    wx :!u.indexOf('micromessenger')==-1 // 是否是微信内核	 
 	}
 })();
