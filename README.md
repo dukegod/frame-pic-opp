@@ -1,6 +1,8 @@
-## 客户端判断
+## detector 
 
-检测 Android  iPhone weixin
+detector your client
+
+ Android  iPhone weixin  mobile
 
 
 
