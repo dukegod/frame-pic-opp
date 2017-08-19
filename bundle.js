@@ -241,7 +241,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       };
 
       var obj = void 0;
-      if (1) {
+      if (win) {
         obj = Object.assign({}, version(), { node: false, win: true });
       } else {
         obj = Object.assign({}, { node: nd, win: false });
