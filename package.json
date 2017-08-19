@@ -1,10 +1,11 @@
 {
   "name": "isclient",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "check client ",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack --watch",
+    "dev": "webpack --config ./webpack.dev.config.js --watch",
+    "build": "webpack --config ./webpack.pro.config.js",
     "test": "mocha"
   },
   "repository": {
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/dukegod/isClient#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
     "mocha": "^3.5.0"
   },
   "dependencies": {
