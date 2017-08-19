@@ -39,7 +39,7 @@ const version = () => {
 };
 
 let obj;
-if (1) {
+if (win) {
   obj = Object.assign({}, version(), {node: false, win: true});
 } else {
   obj = Object.assign({}, { node: nd, win: false });
