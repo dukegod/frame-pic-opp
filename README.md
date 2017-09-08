@@ -1,26 +1,30 @@
-## detector 
+## isClient 
 
-detector your client
+detect  your client's userAgent
 
- Android  iPhone weixin  mobile
+Android or iPhone or weixin or mobile
+
+### install isclient
  
  ```js
-const detector = require('../index');
+const isClient = require('isClient');
+// or
+import isClient from 'isclient';
 
-//is:::: node：detector.node
-//is:::: window：detector.node
-//is:::: 火狐：detector.gecko
-//is:::: IE：detector.ie
-//is:::: opera：detector.opera
-//is:::: android：detector.android
-//is:::: ios：detector.ios
-//is:::: mobile：detector.mobile
-//is:::: iPhone：detector.iPhone
-//is:::: aiPad：detector.iPad
-//is:::: safari：detector.safari
-//is:::: weixin：detector.wx
-//is:::: jdapp：detector.jdapp
-//is:::: chrome：detector.chrome
+//is:::: node：isClient.node
+//is:::: window：isClient.node
+//is:::: 火狐：isClient.gecko
+//is:::: IE：isClient.ie
+//is:::: opera：isClient.opera
+//is:::: android：isClient.android
+//is:::: ios：isClient.ios
+//is:::: mobile：isClient.mobile
+//is:::: iPhone：isClient.iPhone
+//is:::: aiPad：isClient.iPad
+//is:::: safari：isClient.safari
+//is:::: weixin：isClient.wx
+//is:::: jdapp：isClient.jdapp
+//is:::: chrome：isClient.chrome
 ```
 
 
