@@ -1,6 +1,6 @@
 {
   "name": "isclient",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "check client ",
   "main": "./dist/index.js",
   "scripts": {
